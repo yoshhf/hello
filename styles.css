@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(bg/beground.png);
+    background-size: cover;
+}
+
+.container {
+    height: 100vh; /* Full viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scroll-snap-type: y mandatory; /* Snap scrolling to y-axis */
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Styling links for navigation */
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-image: url(bg/beground.png);
+}
+.page1 {
+    min-height: 100vh; /* Each page occupies full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; /* Snap align to start of each page */
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.page2 {
+    min-height: 100vh; /* Each page occupies full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; /* Snap align to start of each page */
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.page3 {
+    min-height: 100vh; /* Each page occupies full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; /* Snap align to start of each page */
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.page4 {
+    min-height: 100vh; /* Each page occupies full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; /* Snap align to start of each page */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.page5 {
+    min-height: 100vh; /* Each page occupies full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; /* Snap align to start of each page */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.page6 {
+    min-height: 100vh; /* Each page occupies full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start; /* Snap align to start of each page */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cake-container {
+    position: relative;
+    width: 300px; /* Sesuaikan lebar dengan ukuran gambar kue */
+    height: 300px; /* Sesuaikan tinggi dengan ukuran gambar kue */
+    margin: 20px;
+}
+
+#birthday-cake {
+    width: 100%;
+    height: auto;
+}
+
+#candle {
+    position: absolute;
+    top: -600px; /* Sesuaikan posisi lilin di atas kue */
+    left: -250px; /* Posisikan lilin di tengah */
+    transform: translateX(-50%);
+    cursor: pointer;
+    scale: 30%;
+}
+
+#gift-box {
+    width: 200px;
+    cursor: pointer;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
